@@ -3,11 +3,26 @@
 !.gitignore
 
 !alacritty/
+!alacritty/**
 
 !nvim/
+!nvim/lua/
+!nvim/lua/**
+!nvim/init.lua
+!nvim/*.md
+
 !sway/
+!sway/**
+
 !swaylock/
+!swaylock/**
+
 !vim/
+!vim/**
+
 !waybar/
+!waybar/**
+
 !wofi/
+!wofi/**
 

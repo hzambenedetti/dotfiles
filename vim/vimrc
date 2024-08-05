@@ -1,0 +1,16 @@
+
+"Options 
+
+set number
+set relativenumber
+set cursorline
+set numberwidth=3
+set tabstop=2
+set mouse="a"
+syntax on
+
+"Colorscheme
+
+set background=dark
+set t_Co=256
+colorscheme amber
