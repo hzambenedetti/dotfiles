@@ -1,0 +1,13 @@
+*
+
+!.gitignore
+
+!alacritty/
+
+!nvim/
+!sway/
+!swaylock/
+!vim/
+!waybar/
+!wofi/
+
