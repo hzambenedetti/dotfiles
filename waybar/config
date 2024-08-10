@@ -28,12 +28,10 @@
     "modules-right": [
         "network",
         "memory",
-        //"cpu",
-        //"temperature",
         "sway/language",
-        "battery",
-        "tray",
+        "backlight",
 				"pulseaudio",
+        "battery",
         "clock#date",
         "clock#time"
     ],
@@ -189,6 +187,11 @@
           ""  // Icon: temperature-full
       ],
       "tooltip": true
+    },
+
+    "backlight": {
+      "format": "  󰃠 {percent}%",
+      "scroll-step": 1.0
     },
 
     "tray": {

@@ -90,6 +90,9 @@
     color: red;
 }
 
+/* Uncomment the section below to activate blink animation */
+
+/*
 #battery.warning.discharging {
     animation-name: blink-warning;
     animation-duration: 3s;
@@ -99,6 +102,7 @@
     animation-name: blink-critical;
     animation-duration: 2s;
 }
+*/ 
 
 #clock {
     font-weight: bold;
