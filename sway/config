@@ -64,7 +64,7 @@ output eDP-1 {
 
 ### Idle configuration
 
-exec /home/henrique/.config/sway/scripts/screenoff.sh
+#exec /home/henrique/.config/sway/scripts/screenoff.sh
 
 # nightlight functionality
 exec gammastep
