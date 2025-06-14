@@ -11,5 +11,5 @@ require "zamba.comment"
 require "zamba.nvim_tree"
 require "zamba.bufferline"
 require "zamba.toggleterm"
---require "zamba.gitsigns"
+require "zamba.gitsigns"
 

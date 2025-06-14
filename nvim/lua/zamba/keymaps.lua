@@ -102,3 +102,8 @@ keymap("n", "<leader>ft", "<cmd>Telescope find_files<cr>", opts)
 --  opts
 --)
 keymap("n", "<leader>gt", "<cmd>Telescope live_grep<cr>", opts)
+
+
+--GitSigns
+--GitBlame
+keymap("n", "<leader>gb", ":Gitsigns blame_line<cr>", opts)
