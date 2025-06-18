@@ -3,19 +3,19 @@
 opacity = 0.8
 
 [font.normal]
-family = "FiraCodeNerdFont"
+family = "FiraCodeNerdFontMono"
 style = "Regular"
 
 [font.bold]
-family = "FiraCodeNerdFont"
+family = "FiraCodeNerdFontMono"
 style = "Bold"
 
 [font.italic]
-family = "FiraCodeNerdFont"
+family = "FiraCodeNerdFontMono"
 style = "Italic"
 
 [font.bold_italic]
-family = "FiraCodeNerdFont"
+family = "FiraCodeNerdFontMono"
 style = "Bold Italic"
 
 [general]
