@@ -19,6 +19,7 @@
 
 !vim/
 !vim/**
+vim/.netrwhist
 
 !waybar/
 !waybar/**
@@ -31,3 +32,5 @@
 
 !starship/
 !starship/**
+
+!README.md
