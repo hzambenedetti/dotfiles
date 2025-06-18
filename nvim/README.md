@@ -14,13 +14,14 @@ sudo dnf install neovim
 
 ### Installing lua-language-server
 
+#### Installing from source
 [lua-language-server website](https://luals.github.io/wiki/build/)
 
 * clone repo
 * install libstdc++-static if needed
 * run ./make.sh
 
-#### Adding lua-laguage-server to the PATH variable
+##### Adding lua-laguage-server to the PATH variable
 
 on bash run:
 ```bash
@@ -33,6 +34,13 @@ add the folowing line to .bashrc:
 PATH="path/to/lua-language-server:$PATH"
 ```
 Remember that you **MUST** change *"path/to/lua-language-server"* to the actual path on your system.
+
+#### Installing from distro repo
+
+Fedora:
+```bash
+sudo dnf install lua
+```
 
 ## Cloning this repo:
 
