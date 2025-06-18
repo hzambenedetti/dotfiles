@@ -22,7 +22,7 @@ set $focused_child_border #603fa4
 client.focused $focused_border $focused_background $focused_text $focused_indicator $focused_child_border
 
 #Font
-font FiraCodeNerd 10
+font FiraCodeNerdFont-Regular 10
 
 ### Variables
 #
@@ -49,7 +49,7 @@ set $screenlock swaylock --color 00000099
 # Default wallpaper (more resolutions are available in /run/current-system/sw/share/backgrounds/sway/)
 #output * bg /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
-output * bg /home/henrique/Pictures/wallpapers/cozy_landscape.jpg fill
+output * bg /home/henrique/Pictures/wallpapers/cozy_winter.jpg fill
 
 
 # Example configuration:
