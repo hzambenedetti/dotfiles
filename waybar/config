@@ -121,7 +121,8 @@
         "format-ethernet": "󰈀  {ifname}", // Icon: ethernet "󰈀  {ifname}: {ipaddr}/{cidr}"
         //"format-ethernet": "ETH: {ifname}", // Icon: ethernet "󰈀  {ifname}: {ipaddr}/{cidr}"
         "format-disconnected": "⚠  Disconnected",
-        "tooltip-format": "{ifname}: {ipaddr}"
+        "tooltip-format": "{ifname}: {ipaddr}",
+        "on-click": "alacritty -e nmtui"
     },
 
     "sway/language": {
