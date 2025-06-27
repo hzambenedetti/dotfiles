@@ -27,6 +27,7 @@
     ],
     "modules-right": [
         "network",
+        "cpu",
         "memory",
         "sway/language",
         "backlight",
@@ -80,8 +81,8 @@
 
     "cpu": {
         "interval": 5,
-        //"format": "  {usage}% ({load})", // Icon: microchip
-        "format": "CPU: {usage}% ({load})", // icon: microchip
+        "format": " {usage}%",// Icon: microchip
+        //"format": "CPU: {usage}%", // icon: microchip
         "states": {
           "warning": 70,
           "critical": 90
@@ -106,7 +107,7 @@
     "memory": {
         "interval": 5,
         //"format": "MEM: {}%", // Icon: memory "  {}%"
-        "format": "  {}% ",
+        "format": " {}% ",
         "states": {
             "warning": 70,
             "critical": 90
