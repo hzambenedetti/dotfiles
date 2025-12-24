@@ -36,7 +36,6 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 keymap("n", "<leader>nw", ":vsplit<cr>", opts) -- New window by split
 keymap("n", "<leader>cw", ":close<cr>", opts) -- closes focused window
 
-keymap("n", "tt", ":NvimTreeToggle<cr>", opts)
 keymap("n", "<leader>pv", ":Ex<cr>", opts)
 
 --Tab Control and Navigation
@@ -44,7 +43,6 @@ keymap("n", "<leader>nt", ":tabnew<cr>", opts) -- New tab
 keymap("n", "<leader>ct", ":tabclose<cr>", opts) --Close current tab
 
 -- Buffer Control and navigation 
-keymap("n", "<leader>cb", ":Bdelete<cr>", opts) --close buffer
 -- Next Buffer: shift + l 
 -- Previous Buffer: shift + h
 
@@ -93,15 +91,6 @@ keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
 keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
-
--- Telescope --
-keymap("n", "<leader>ft", "<cmd>Telescope find_files<cr>", opts)
---keymap("n",
---  "<leader>pf",
---  "<cmd>lua require'telescope.builtin''.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>",
---  opts
---)
-keymap("n", "<leader>gt", "<cmd>Telescope live_grep<cr>", opts)
 
 
 --GitSigns
