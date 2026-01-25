@@ -33,4 +33,10 @@ vim/.netrwhist
 !starship/
 !starship/**
 
+!dwm/
+!dwm/**
+
+!slstatus/
+!slstatus/**
+
 !README.md
