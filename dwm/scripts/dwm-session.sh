@@ -20,6 +20,8 @@ picom -b --backend glx &
 # You need to install this: sudo dnf install feh
 feh --bg-scale /home/henrique/Pictures/wallpapers/cozy_winter.jpg &
 
+# 5. Activate notifications daemon
+dunst &
 
 # 6. Start DWM (Must be last!)
 exec dwm
