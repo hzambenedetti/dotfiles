@@ -70,6 +70,7 @@ static const struct arg args[] = {
     { datetime, "[ %s ]",       "%R UTC %z - %F" }, /* See https://man7.org/linux/man-pages/man1/date.1.html for more information */
     { ram_perc, "[  %s%% ]", NULL },
     { cpu_perc, "[  %s%% ]", NULL },
+    { run_command, "[ PF: %s ]", "tuned-adm active | awk '{print $NF}'"},
     { keymap,   "[   %s ]", NULL },
     //{ battery_perc, "[ Bat: %s%% ]", "BAT0" }, /* Check if your battery is BAT0 or BAT1 using `ls /sys/class/power_supply` */
     { run_command, "[ Bat: %s ]", "/home/henrique/.local/bin/power"}, /* Check if your battery is BAT0 or BAT1 using `ls /sys/class/power_supply` */
