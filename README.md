@@ -4,9 +4,13 @@
 
 - Download fonts: FiraCode Nerd Font;
 - Enable free and non-free rpm repos (Fedora only);
-- Install and setup zsh and oh my zsh;
-- Install Starship;
 
+### Aplications:
+- zsh and oh my zsh;
+- starship;
+- nmtui
+- tlp (config tlp)
+- syncthing
 
 ## Neovim
 
